@@ -1,0 +1,26 @@
+{
+  "name": "xileft_pad",
+  "vendorId": "0x8492",
+  "productId": "0x0020",
+  "keycodes": ["qmk_lighting"],
+  "customKeycodes": [{"name": "BTN00", "title": "Gamepad button01", "shortName": "BTN00"}, {"name": "BTN01", "title": "Gamepad button02", "shortName": "BTN01"}, {"name": "BTN02", "title": "Gamepad button03", "shortName": "BTN02"}, {"name": "BTN03", "title": "Gamepad button04", "shortName": "BTN03"}, {"name": "BTN04", "title": "Gamepad button05", "shortName": "BTN04"}, {"name": "BTN05", "title": "Gamepad button06", "shortName": "BTN05"}, {"name": "BTN06", "title": "Gamepad button07", "shortName": "BTN06"}, {"name": "BTN07", "title": "Gamepad button08", "shortName": "BTN07"}, {"name": "BTN08", "title": "Gamepad button09", "shortName": "BTN08"}, {"name": "BTN09", "title": "Gamepad button10", "shortName": "BTN09"}, {"name": "BTN10", "title": "Gamepad button11", "shortName": "BTN10"}, {"name": "BTN11", "title": "Gamepad button12", "shortName": "BTN11"}, {"name": "BTN12", "title": "Gamepad button13", "shortName": "BTN12"}, {"name": "BTN13", "title": "Gamepad button14", "shortName": "BTN13"}, {"name": "BTN14", "title": "Gamepad button15", "shortName": "BTN14"}, {"name": "BTN15", "title": "Gamepad button16", "shortName": "BTN15"}, {"name": "BTN16", "title": "Gamepad button17", "shortName": "BTN16"}, {"name": "BTN17", "title": "Gamepad button18", "shortName": "BTN17"}, {"name": "BTN18", "title": "Gamepad button19", "shortName": "BTN18"}, {"name": "BTN19", "title": "Gamepad button20", "shortName": "BTN19"}, {"name": "BTN20", "title": "Gamepad button21", "shortName": "BTN20"}, {"name": "BTN21", "title": "Gamepad button22", "shortName": "BTN21"}, {"name": "BTN22", "title": "Gamepad button23", "shortName": "BTN22"}, {"name": "BTN23", "title": "Gamepad button24", "shortName": "BTN23"}, {"name": "BTN24", "title": "Gamepad button25", "shortName": "BTN24"}, {"name": "BTN25", "title": "Gamepad button26", "shortName": "BTN25"}, {"name": "BTN26", "title": "Gamepad button27", "shortName": "BTN26"}, {"name": "BTN27", "title": "Gamepad button28", "shortName": "BTN27"}, {"name": "BTN28", "title": "Gamepad button29", "shortName": "BTN28"}, {"name": "BTN29", "title": "Gamepad button30", "shortName": "BTN29"}, {"name": "BTN30", "title": "Gamepad button31", "shortName": "BTN30"}, {"name": "BTN31", "title": "Gamepad button32", "shortName": "BTN31"}],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
+  "matrix": {
+    "rows": 6,
+    "cols": 6
+  },
+  "layouts": {
+    "keymap": [
+      ["0,0","0,1","0,2","0,3","0,4",{"x":2, "c":"#aaaaaa"}],
+      ["1,0","1,1","1,2","1,3","1,4"],
+      [{"x":1},"2,1","2,2","2,3\n\n\n\n\n\n\n\n\ne1","2,4"],
+      [{"y":-0.5},"2,0"],
+      [{"x":1,"y":-0.5},"3,1","3,2","3,3","3,4\n\n\n\n\n\n\n\n\ne0",{"x":0.5, "c":"#aaaaaa","h":2},"0,5","2,5"],
+      [{"y":-0.5,"c":"#cccccc"},"3,0"],
+      [{"c":"#cccccc","x":1,"y":-0.5},"4,1",{"x":1},"4,3","4,4",{"x":1.5,"c":"#aaaaaa"},"1,5"],
+      [{"y":-0.5,"c":"#cccccc"},"4,0",{"x":0.8,"y":0.5,"r":-30,"rx":0,"ry":5.5},"4,2"]
+    ]
+  }
+}
