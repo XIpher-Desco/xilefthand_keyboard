@@ -1,4 +1,5 @@
 # xilefthand_keyboard
+![製品画像](image/product_image.jpg)
 
 ## 使い方
 VIA を使ったマッピングについては「[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)」のページが非常に詳しくされていますので、参考にしてください。
